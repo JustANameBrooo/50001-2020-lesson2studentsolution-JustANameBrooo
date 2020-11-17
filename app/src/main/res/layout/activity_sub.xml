@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubActivity">
+    <!-- substitute Home for A -->
+    <EditText
+        android:id="@+id/editTextSubValueHome"
+        android:hint="Enter units of home currency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewUnitsOfHomeSub"
+        android:text="units of home currency buys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!-- substitute Foreign for B -->
+    <EditText
+        android:id="@+id/editTextSubValueForeign"
+        android:hint="Enter units of foreign currency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewUnitsOfForeignSub"
+        android:text="units of foreign currency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonBackToCalculator"
+        android:text="OK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
